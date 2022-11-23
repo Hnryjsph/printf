@@ -124,7 +124,6 @@ int print_reverse(va_list types, char buffer[],
 
 		str = ")Null(";
 	}
-	
 	i = 0;
 	while (str[i])
 	{
