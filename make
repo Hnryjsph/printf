@@ -1,5 +1,0 @@
-#!/bin/bash
-for file in *.c
-do
-	vim $file +'e ++ff=dos | set ff=unix | wq!'
-done
